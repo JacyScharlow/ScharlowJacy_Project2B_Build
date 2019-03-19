@@ -19,7 +19,7 @@ public class OptionsScript : MonoBehaviour
 
 
 
-    // Update is called once per frame
+    //update saved playerprefs for options
     private void Update()
     {
         

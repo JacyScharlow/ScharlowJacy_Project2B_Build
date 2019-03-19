@@ -17,17 +17,15 @@ public class SceneController : MonoBehaviour
         HSButton.onClick.AddListener(HS);
     }
 
-    // Update is called once per frame
+    //loadscences or quit
     void MainScene()
     {
         SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
-        //SceneManager.SetActiveScene(SceneManager.GetSceneByName("MainScene"));
     }
 
     void OptionScene()
     {
         SceneManager.LoadScene("Options", LoadSceneMode.Single);
-        //SceneManager.SetActiveScene(SceneManager.GetSceneByName("Options"));
     }
 
     void Quit()
@@ -38,6 +36,5 @@ public class SceneController : MonoBehaviour
     void HS()
     {
         SceneManager.LoadScene("HighScores", LoadSceneMode.Single);
-        //SceneManager.SetActiveScene(SceneManager.GetSceneByName("HighScores"));
     }
 }

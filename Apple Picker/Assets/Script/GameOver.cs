@@ -16,17 +16,15 @@ public class GameOver : MonoBehaviour
         QuitButton.onClick.AddListener(Quit);
     }
 
-    // Update is called once per frame
+    // Load Scenes
     void MainScene()
     {
         SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
-        //SceneManager.SetActiveScene(SceneManager.GetSceneByName("MainScene"));
     }
 
     void MMScene()
     {
         SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
-        //SceneManager.SetActiveScene(SceneManager.GetSceneByName("MainMenu"));
     }
 
     void Quit()

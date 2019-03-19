@@ -18,6 +18,5 @@ public class Back : MonoBehaviour
     void MainMenu()
     {
         SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
-        //SceneManager.SetActiveScene(SceneManager.GetSceneByName("MainMenu"));
     }
 }

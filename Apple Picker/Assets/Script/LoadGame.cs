@@ -14,15 +14,15 @@ public class LoadGame : MonoBehaviour
         if (!PlayerPrefs.HasKey("High Score 1"))
         { // Check to see if a high score is already saved
             PlayerPrefs.SetInt("High Score 1", defaultHighScore); // If it’s not, then save one
-            PlayerPrefs.SetInt("High Score 2", defaultHighScore); // If it’s not, then save one
-            PlayerPrefs.SetInt("High Score 3", defaultHighScore); // If it’s not, then save one
-            PlayerPrefs.SetInt("High Score 4", defaultHighScore); // If it’s not, then save one
-            PlayerPrefs.SetInt("High Score 5", defaultHighScore); // If it’s not, then save one
-            PlayerPrefs.SetInt("High Score 6", defaultHighScore); // If it’s not, then save one
-            PlayerPrefs.SetInt("High Score 7", defaultHighScore); // If it’s not, then save one
-            PlayerPrefs.SetInt("High Score 8", defaultHighScore); // If it’s not, then save one
-            PlayerPrefs.SetInt("High Score 9", defaultHighScore); // If it’s not, then save one
-            PlayerPrefs.SetInt("High Score 10", defaultHighScore); // If it’s not, then save one
+            PlayerPrefs.SetInt("High Score 2", defaultHighScore); 
+            PlayerPrefs.SetInt("High Score 3", defaultHighScore); 
+            PlayerPrefs.SetInt("High Score 4", defaultHighScore); 
+            PlayerPrefs.SetInt("High Score 5", defaultHighScore); 
+            PlayerPrefs.SetInt("High Score 6", defaultHighScore); 
+            PlayerPrefs.SetInt("High Score 7", defaultHighScore); 
+            PlayerPrefs.SetInt("High Score 8", defaultHighScore);
+            PlayerPrefs.SetInt("High Score 9", defaultHighScore);
+            PlayerPrefs.SetInt("High Score 10", defaultHighScore);
             PlayerPrefs.SetInt("Current Score", defaultHighScore);
             PlayerPrefs.SetFloat("MusicSound", 1);
             PlayerPrefs.SetFloat("SFXSound", 1);
